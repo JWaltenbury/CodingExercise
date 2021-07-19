@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGMavenSuite" parallel="none" >
+   <test name="TestNGMavenTests" >
+       <classes> 
+          <class name="External.Exercise1Maven.FileOperationsTest" />
+          <class name="External.Exercise1Maven.MainTest" />
+          <class name="External.Exercise1Maven.ReturnSubmissionViewTest" />
+          <class name="External.Exercise1Maven.RuntimeTest" />
+          <class name="External.Exercise1Maven.T3ReturnTest" />
+          <class name="External.Exercise1Maven.ValidationsTest" />
+       </classes>
+   </test>
+ </suite>

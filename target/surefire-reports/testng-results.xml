@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGMavenSuite" duration-ms="296" started-at="2021-07-16T17:43:56Z" finished-at="2021-07-16T17:43:56Z">
+    <groups>
+    </groups>
+    <test name="TestNGMavenTests" duration-ms="296" started-at="2021-07-16T17:43:56Z" finished-at="2021-07-16T17:43:56Z">
+      <class name="External.Exercise1Maven.T3ReturnTest">
+        <test-method status="PASS" signature="t3ReturnTest()[pri:0, instance:External.Exercise1Maven.T3ReturnTest@4232c52b]" name="t3ReturnTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3ReturnTest -->
+      </class> <!-- External.Exercise1Maven.T3ReturnTest -->
+      <class name="External.Exercise1Maven.FileOperationsTest">
+        <test-method status="PASS" signature="csvImportTest()[pri:0, instance:External.Exercise1Maven.FileOperationsTest@4493d195]" name="csvImportTest" duration-ms="6" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- csvImportTest -->
+      </class> <!-- External.Exercise1Maven.FileOperationsTest -->
+      <class name="External.Exercise1Maven.RuntimeTest">
+        <test-method status="PASS" signature="initializeRuntimeLists()[pri:0, instance:External.Exercise1Maven.RuntimeTest@57e1b0c]" name="initializeRuntimeLists" is-config="true" duration-ms="24" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRuntimeLists -->
+        <test-method status="PASS" signature="sampleDataRuntimeTest()[pri:1, instance:External.Exercise1Maven.RuntimeTest@57e1b0c]" name="sampleDataRuntimeTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleDataRuntimeTest -->
+        <test-method status="PASS" signature="sampleDataLargeRuntimeTest()[pri:2, instance:External.Exercise1Maven.RuntimeTest@57e1b0c]" name="sampleDataLargeRuntimeTest" duration-ms="1" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleDataLargeRuntimeTest -->
+        <test-method status="PASS" signature="sampleDataHugeRuntimeTest()[pri:3, instance:External.Exercise1Maven.RuntimeTest@57e1b0c]" name="sampleDataHugeRuntimeTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleDataHugeRuntimeTest -->
+      </class> <!-- External.Exercise1Maven.RuntimeTest -->
+      <class name="External.Exercise1Maven.ValidationsTest">
+        <test-method status="PASS" signature="integerValidationTest()[pri:0, instance:External.Exercise1Maven.ValidationsTest@1877ab81]" name="integerValidationTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integerValidationTest -->
+        <test-method status="PASS" signature="positiveIntegerValidationTest()[pri:0, instance:External.Exercise1Maven.ValidationsTest@1877ab81]" name="positiveIntegerValidationTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveIntegerValidationTest -->
+        <test-method status="PASS" signature="stringValidationTest()[pri:0, instance:External.Exercise1Maven.ValidationsTest@1877ab81]" name="stringValidationTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringValidationTest -->
+        <test-method status="PASS" signature="t3ReturnValidationTest()[pri:0, instance:External.Exercise1Maven.ValidationsTest@1877ab81]" name="t3ReturnValidationTest" duration-ms="0" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3ReturnValidationTest -->
+      </class> <!-- External.Exercise1Maven.ValidationsTest -->
+      <class name="External.Exercise1Maven.ReturnSubmissionViewTest">
+        <test-method status="PASS" signature="reportSubmissionTest()[pri:0, instance:External.Exercise1Maven.ReturnSubmissionViewTest@2781e022]" name="reportSubmissionTest" duration-ms="238" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSubmissionTest -->
+        <test-method status="PASS" signature="uiGenerationTest()[pri:0, instance:External.Exercise1Maven.ReturnSubmissionViewTest@2781e022]" name="uiGenerationTest" duration-ms="14" started-at="2021-07-16T13:43:56Z" finished-at="2021-07-16T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiGenerationTest -->
+      </class> <!-- External.Exercise1Maven.ReturnSubmissionViewTest -->
+    </test> <!-- TestNGMavenTests -->
+  </suite> <!-- TestNGMavenSuite -->
+</testng-results>

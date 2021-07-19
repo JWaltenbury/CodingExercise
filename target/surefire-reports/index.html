@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestNGMavenSuite">
+              <span class="suite-name border-passed">TestNGMavenSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestNGMavenSuite">
+                    <span>F:\Users\JDub\eclipse-workspace\Exercise1Maven\src\test\resources\testng-unit-suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestNGMavenSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestNGMavenSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestNGMavenSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestNGMavenSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestNGMavenSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestNGMavenSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNGMavenSuite" class="hide-methods passed suite-TestNGMavenSuite"> (hide)</a> <!-- hide-methods passed suite-TestNGMavenSuite -->
+                      <a href="#" panel-name="suite-TestNGMavenSuite" class="show-methods passed suite-TestNGMavenSuite"> (show)</a> <!-- show-methods passed suite-TestNGMavenSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNGMavenSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.FileOperationsTest" hash-for-method="csvImportTest">csvImportTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ValidationsTest" hash-for-method="integerValidationTest">integerValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ValidationsTest" hash-for-method="positiveIntegerValidationTest">positiveIntegerValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ReturnSubmissionViewTest" hash-for-method="reportSubmissionTest">reportSubmissionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.RuntimeTest" hash-for-method="sampleDataHugeRuntimeTest">sampleDataHugeRuntimeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.RuntimeTest" hash-for-method="sampleDataLargeRuntimeTest">sampleDataLargeRuntimeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.RuntimeTest" hash-for-method="sampleDataRuntimeTest">sampleDataRuntimeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ValidationsTest" hash-for-method="stringValidationTest">stringValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.T3ReturnTest" hash-for-method="t3ReturnTest">t3ReturnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ValidationsTest" hash-for-method="t3ReturnValidationTest">t3ReturnValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGMavenSuite" title="External.Exercise1Maven.ReturnSubmissionViewTest" hash-for-method="uiGenerationTest">uiGenerationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNGMavenSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNGMavenSuite" class="panel TestNGMavenSuite">
+          <div class="suite-TestNGMavenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">External.Exercise1Maven.FileOperationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="csvImportTest">
+                  </a> <!-- csvImportTest -->
+                  <span class="method-name">csvImportTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGMavenSuite-class-passed -->
+          <div class="suite-TestNGMavenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">External.Exercise1Maven.T3ReturnTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="t3ReturnTest">
+                  </a> <!-- t3ReturnTest -->
+                  <span class="method-name">t3ReturnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGMavenSuite-class-passed -->
+          <div class="suite-TestNGMavenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">External.Exercise1Maven.RuntimeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sampleDataHugeRuntimeTest">
+                  </a> <!-- sampleDataHugeRuntimeTest -->
+                  <span class="method-name">sampleDataHugeRuntimeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sampleDataLargeRuntimeTest">
+                  </a> <!-- sampleDataLargeRuntimeTest -->
+                  <span class="method-name">sampleDataLargeRuntimeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sampleDataRuntimeTest">
+                  </a> <!-- sampleDataRuntimeTest -->
+                  <span class="method-name">sampleDataRuntimeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGMavenSuite-class-passed -->
+          <div class="suite-TestNGMavenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">External.Exercise1Maven.ValidationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="integerValidationTest">
+                  </a> <!-- integerValidationTest -->
+                  <span class="method-name">integerValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveIntegerValidationTest">
+                  </a> <!-- positiveIntegerValidationTest -->
+                  <span class="method-name">positiveIntegerValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stringValidationTest">
+                  </a> <!-- stringValidationTest -->
+                  <span class="method-name">stringValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t3ReturnValidationTest">
+                  </a> <!-- t3ReturnValidationTest -->
+                  <span class="method-name">t3ReturnValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGMavenSuite-class-passed -->
+          <div class="suite-TestNGMavenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">External.Exercise1Maven.ReturnSubmissionViewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reportSubmissionTest">
+                  </a> <!-- reportSubmissionTest -->
+                  <span class="method-name">reportSubmissionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uiGenerationTest">
+                  </a> <!-- uiGenerationTest -->
+                  <span class="method-name">uiGenerationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGMavenSuite-class-passed -->
+        </div> <!-- panel TestNGMavenSuite -->
+        <div panel-name="test-xml-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Users\JDub\eclipse-workspace\Exercise1Maven\src\test\resources\testng-unit-suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TestNGMavenSuite&quot;&gt;
+  &lt;test name=&quot;TestNGMavenTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;External.Exercise1Maven.FileOperationsTest&quot;/&gt;
+      &lt;class name=&quot;External.Exercise1Maven.MainTest&quot;/&gt;
+      &lt;class name=&quot;External.Exercise1Maven.ReturnSubmissionViewTest&quot;/&gt;
+      &lt;class name=&quot;External.Exercise1Maven.RuntimeTest&quot;/&gt;
+      &lt;class name=&quot;External.Exercise1Maven.T3ReturnTest&quot;/&gt;
+      &lt;class name=&quot;External.Exercise1Maven.ValidationsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNGMavenTests --&gt;
+&lt;/suite&gt; &lt;!-- TestNGMavenSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNGMavenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNGMavenTests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNGMavenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNGMavenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNGMavenSuite');
+function tableData_TestNGMavenSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'reportSubmissionTest')
+data.setCell(0, 2, 'External.Exercise1Maven.ReturnSubmissionViewTest')
+data.setCell(0, 3, 238);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'uiGenerationTest')
+data.setCell(1, 2, 'External.Exercise1Maven.ReturnSubmissionViewTest')
+data.setCell(1, 3, 14);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'csvImportTest')
+data.setCell(2, 2, 'External.Exercise1Maven.FileOperationsTest')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sampleDataLargeRuntimeTest')
+data.setCell(3, 2, 'External.Exercise1Maven.RuntimeTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sampleDataRuntimeTest')
+data.setCell(4, 2, 'External.Exercise1Maven.RuntimeTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sampleDataHugeRuntimeTest')
+data.setCell(5, 2, 'External.Exercise1Maven.RuntimeTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'integerValidationTest')
+data.setCell(6, 2, 'External.Exercise1Maven.ValidationsTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'stringValidationTest')
+data.setCell(7, 2, 'External.Exercise1Maven.ValidationsTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 't3ReturnValidationTest')
+data.setCell(8, 2, 'External.Exercise1Maven.ValidationsTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 't3ReturnTest')
+data.setCell(9, 2, 'External.Exercise1Maven.T3ReturnTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'positiveIntegerValidationTest')
+data.setCell(10, 2, 'External.Exercise1Maven.ValidationsTest')
+data.setCell(10, 3, 0);
+window.suiteTableData['TestNGMavenSuite']= { tableData: data, tableDiv: 'times-div-TestNGMavenSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 259 ms</span>
+              <div id="times-div-TestNGMavenSuite">
+              </div> <!-- times-div-TestNGMavenSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNGMavenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">External.Exercise1Maven.MainTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intentionalFailedTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNGMavenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.FileOperationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">csvImportTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.ReturnSubmissionViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">reportSubmissionTest</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uiGenerationTest</span>
+                <span class="method-start">244 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.ValidationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">integerValidationTest</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveIntegerValidationTest</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.T3ReturnTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">t3ReturnTest</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.RuntimeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeRuntimeLists</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.ValidationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stringValidationTest</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t3ReturnValidationTest</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">External.Exercise1Maven.RuntimeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sampleDataLargeRuntimeTest</span>
+                <span class="method-start">285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sampleDataRuntimeTest</span>
+                <span class="method-start">285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sampleDataHugeRuntimeTest</span>
+                <span class="method-start">286 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
