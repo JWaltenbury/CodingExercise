@@ -52,18 +52,18 @@ public class RuntimeTest {
   public void sampleDataLargeRuntimeTest()
   {	  
 	  System.out.println("\n---------- SAMPLE DATA (LARGE) RUNTIME ANALYSIS ("+ returnListLarge.size() + " records) ----------");
-	  putReturnInMap(returnListNormal, testReturn);
-	  getReturnFromMap(returnListNormal, "T38395578");
-	  removeReturnFromMap(returnListNormal, "T07655165");
+	  putReturnInMap(returnListLarge, testReturn);
+	  getReturnFromMap(returnListLarge, "T38395578");
+	  removeReturnFromMap(returnListLarge, "T07655165");
   }
   
   @Test(priority=3)
   public void sampleDataHugeRuntimeTest()
   {	  
 	  System.out.println("\n---------- SAMPLE DATA (HUGE) RUNTIME ANALYSIS ("+ returnListHuge.size() + " records) ----------");
-	  putReturnInMap(returnListNormal, testReturn);
-	  getReturnFromMap(returnListNormal, "T59450429");
-	  removeReturnFromMap(returnListNormal, "T75916886");
+	  putReturnInMap(returnListHuge, testReturn);
+	  getReturnFromMap(returnListHuge, "T59450429");
+	  removeReturnFromMap(returnListHuge, "T75916886");
   }
   
   private static void putReturnInMap(HashMap<String, T3Return> mapToUse, T3Return returnToAdd)
@@ -77,6 +77,7 @@ public class RuntimeTest {
   private static void getReturnFromMap(HashMap<String, T3Return> mapToUse, String keyToFind)
   {
 	  long startTime = System.nanoTime();
+	  //System.out.println("\n" + mapToUse.get(keyToFind).toString());
 	  mapToUse.get(keyToFind);
 	  long endTime   = System.nanoTime();
 	  System.out.println("GET - Complete. Runtime: " + (endTime - startTime) + " nanoseconds");
