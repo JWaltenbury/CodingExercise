@@ -1,0 +1,6 @@
+[INFO ] 2021-07-20 13:11:10.028 [main] Main - This is a information message
+[WARN ] 2021-07-20 13:11:10.028 [main] Main - This is a warning message
+[ERROR] 2021-07-20 13:11:10.029 [main] Main - This is an error message
+[INFO ] 2021-07-20 13:12:39.980 [main] Main - This is a information message
+[WARN ] 2021-07-20 13:12:39.980 [main] Main - This is a warning message
+[ERROR] 2021-07-20 13:12:39.980 [main] Main - This is an error message
