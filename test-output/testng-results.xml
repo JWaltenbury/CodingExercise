@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-23T16:07:22Z" name="Exercise 1 Suite" finished-at="2021-07-23T16:07:22Z" duration-ms="229">
+    <groups>
+    </groups>
+    <test started-at="2021-07-23T16:07:22Z" name="UnitTests" finished-at="2021-07-23T16:07:22Z" duration-ms="78">
+      <class name="External.Exercise1Maven.Tests">
+        <test-method signature="csvImportTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="csvImportTest" finished-at="2021-07-23T12:07:22Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- csvImportTest -->
+        <test-method signature="integerValidationTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="integerValidationTest" finished-at="2021-07-23T12:07:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integerValidationTest -->
+        <test-method signature="intentionalFailedTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="intentionalFailedTest" finished-at="2021-07-23T12:07:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intentionalFailedTest -->
+        <test-method signature="positiveIntegerValidationTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="positiveIntegerValidationTest" finished-at="2021-07-23T12:07:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveIntegerValidationTest -->
+        <test-method signature="stringValidationTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="stringValidationTest" finished-at="2021-07-23T12:07:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringValidationTest -->
+        <test-method signature="t3ReturnTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="t3ReturnTest" finished-at="2021-07-23T12:07:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3ReturnTest -->
+        <test-method signature="t3ReturnValidationTest()[pri:0, instance:External.Exercise1Maven.Tests@24f870ee]" started-at="2021-07-23T12:07:22Z" name="t3ReturnValidationTest" finished-at="2021-07-23T12:07:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3ReturnValidationTest -->
+      </class> <!-- External.Exercise1Maven.Tests -->
+    </test> <!-- UnitTests -->
+    <test started-at="2021-07-23T16:07:22Z" name="TimeComplexityTest" finished-at="2021-07-23T16:07:22Z" duration-ms="79">
+      <class name="External.Exercise1Maven.TimeComplexity">
+        <test-method signature="processFiles()[pri:0, instance:External.Exercise1Maven.TimeComplexity@334ebcaa]" started-at="2021-07-23T12:07:22Z" name="processFiles" finished-at="2021-07-23T12:07:22Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processFiles -->
+      </class> <!-- External.Exercise1Maven.TimeComplexity -->
+    </test> <!-- TimeComplexityTest -->
+  </suite> <!-- Exercise 1 Suite -->
+</testng-results>

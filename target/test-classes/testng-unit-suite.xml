@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Exercise 1 Suite">
+
+   <test name = "UnitTests">
+      <classes>
+         <class name = "External.Exercise1Maven.Tests" />
+      </classes>
+   </test>
+
+   <test name = "TimeComplexityTest">
+      <classes>
+         <class name = "External.Exercise1Maven.TimeComplexity" />
+      </classes>
+   </test>
+</suite>
