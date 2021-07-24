@@ -9,16 +9,13 @@ public class TimeComplexity {
 
   @Test
   public void processFiles() {
-	  //TODO encapsulation, comments
 	  
 	  ArrayList<String> filesToProcessList = new ArrayList<String>();
 	  HashMap<String, T3Return> fileList = new HashMap<String, T3Return>();
 	  
-      String smallFile = new String("D:\\Users\\Paul\\Documents\\CRA\\Training Team\\Exercise 1\\sampledata.csv");
-      String largeFile = new String("D:\\Users\\Paul\\Documents\\CRA\\Training Team\\Exercise 1\\sampledata_large.csv");
-      String hugeFile = new String("D:\\Users\\Paul\\Documents\\CRA\\Training Team\\Exercise 1\\sampledata_huge.csv"); 
-     
-      //TODO - loadT3 returns returns a hashmap with all the return entries. assign this here and im good. 
+	  String smallFile = new String("src/test/resources/sampledata.csv");
+	  String largeFile = new String("src/test/resources/sampledata_large.csv");
+	  String hugeFile = new String("src/test/resources/sampledata_huge.csv"); 
       
       filesToProcessList.add(smallFile);
       filesToProcessList.add(largeFile);
@@ -65,7 +62,6 @@ public class TimeComplexity {
 	  long startTime = System.nanoTime();
 	
 	  fileList.get("T12345678");
-	  //System.out.println("Test: " + fileList.get("T12345678"));
     
       long endTime = System.nanoTime();
 
